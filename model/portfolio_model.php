@@ -1,6 +1,6 @@
 <?php
 
-require_once("./includes/config.php");
+require_once("../includes/config.php");
 
 class portfolio_Database{
 
@@ -20,8 +20,15 @@ class portfolio_Database{
 		}
 	}
 
-	public function getAll() {
-		$stmt = $this->connection->prepare("SELECT * FROM ".$this->table);
+	public function getAll($category='') {
+
+		if($category){
+		$stmt = $this->connection->prepare("SELECT * FROM ".$this->table." WHERE category = :category");
+		$stmt->bindParam(':category', $category, PDO::PARAM_STR);
+		}
+		else {
+			$stmt = $this->connection->prepare("SELECT * FROM ".$this->table);
+		}
 		$stmt->execute();
 		$this->rows = $stmt->rowCount();
 		$arr = $stmt->fetchAll(PDO::FETCH_OBJ);

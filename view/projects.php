@@ -1,7 +1,7 @@
 <?php
 
-include("controllers/portfolio_controllers.php");
-$user_var = new portfolio();
-$user_var->loadViews();
+include("../controller/port_controller.php");
+$port_var = new portfolio();
+$port_var->loadViews();
 
 ?>
