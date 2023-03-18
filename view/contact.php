@@ -8,7 +8,7 @@
     <section class="contact">
         <h2 hidden>Contact Form</h2>
 
-        <form action="/includes/send.php" method="POST" id="mail-form">  <!--post, variable which is used to collect data, it goes to send.php/action-->    
+        <form action="/controller/contactController" method="POST" id="mail-form">  <!-- post, variable which is used to collect data, it goes to send.php/action-->    
            
             <label for="firstname">First Name</label>
             <input type="text" id="firstname" name="firstname" required="required">

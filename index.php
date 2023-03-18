@@ -1,6 +1,3 @@
-<?php
-//  echo "php";
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,6 +41,8 @@
     <p id="copyright">All rights reserved by Mamatha Ramesh</p>
     </footer>
 
-    <script src="public/js/main.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <script src="public/js/main.js" type="module" defer></script>
 </body>
 </html>
