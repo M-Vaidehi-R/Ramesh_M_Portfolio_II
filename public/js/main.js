@@ -10,3 +10,5 @@ function loadPage(page) {
     xhttp.open("GET", "view/" +page, true);
     xhttp.send();
 }
+
+
