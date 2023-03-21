@@ -1,0 +1,274 @@
+
+//Content:
+
+    //Index Page
+    //About page
+        //skills
+        //education
+        //experience
+    //know More
+  //Project page
+    //development
+    //design
+    //motion
+
+  //Contact page
+
+@media screen and (min-width: 1281px){
+
+    //index page
+
+#app{
+    margin-left: 400px;
+    margin-right: 4rem;
+}
+
+.Nav{
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    justify-content: center;
+    background-color: $main-color;
+    margin-right: 75rem;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    z-index: 200;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.aboutSubShow {
+    display: none;
+}
+
+.aboutSubShow.open {
+    display: block;
+}
+
+
+.Nav ul{
+    list-style: none;
+    //margin: 0rem;
+    padding-right: 50px;
+}
+
+
+
+.Nav ul li{
+    padding: 2rem;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.Nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+// .Nav ul ul {
+//     display: none;
+//     position: static;
+//     top: 100%;
+//     left: 0;
+//     list-style: none;
+//     padding: 0.5rem;
+//   }
+  
+//   .Nav ul ul li {
+//     float: right;
+//     display: block;
+//     margin: 0;
+//     padding: 2rem;
+//     font-size: small;
+//   }
+
+  
+//   .Nav li:hover > ul {
+//     display: block;
+//   }
+  .Nav li:hover > ul li a:hover {
+    box-shadow: .05rem .0rem 4px white;
+  }
+
+
+
+.MainNav{
+    margin: 12rem 0rem 8rem 0rem; 
+    width: 100px;
+}
+
+.footer{
+    text-align: left;
+    position: absolute;
+    bottom: 1rem;
+    left: 400px;
+  }
+
+  .footer p{
+    padding-top: 1rem;
+  }
+
+
+  //about page
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2{
+            font-size: 40px;
+            color: $main-color;
+            padding: 2rem 0rem 2rem 0rem;
+        }
+
+        p{
+            font-size: 16px;
+            color: $main-text-color;
+            margin-right: 3rem;
+        }
+    }
+
+    .about_button{
+        margin-top: 2rem;      
+        a{
+            font-family: $main-font;
+            color: $main-color;
+            font-size: small;
+            padding: .3rem 1rem;
+            margin-right: 1rem;
+            text-decoration: none;
+            border: .01px solid rgb(218, 218, 218);
+            box-shadow: .2px .5px 5px rgb(139, 139, 139);
+        }
+    }
+
+    .avatar{
+        z-index: 100;
+        display: flex;
+        justify-content: flex-end; /* align children to the end of the container horizontally */
+        align-items: flex-end; /* align children to the end of the container vertically */
+        height: 26vh;
+        padding: 20px;
+    }
+    .avatar img{
+        min-width:10%;
+        max-width: 25%;
+        padding-top: 1rem;
+        // margin-left: auto; 
+        // margin-top: auto;
+    }
+    //skills
+
+    // .percentage{
+    //     z-index: 100;
+    //     display: flex;
+    //     justify-content: flex-end; /* align children to the end of the container horizontally */
+    //     align-items: flex-end; /* align children to the end of the container vertically */
+    //     height: 26vh;
+    // }
+
+    .percentage img{
+        min-width:10%;
+        max-width: 25%;
+    }
+    //education
+
+    .page-titles{
+
+        margin-left: 2rem;
+        display: block;
+        text-align: left;
+
+        h2{
+            color: $main-color;
+            font-family: $main-font;
+            font-weight: 100;
+            font-size: 40px;
+        }
+
+        h3{
+            color: $main-color;
+            font-family: $main-font;
+            font-weight: 100;
+            font-size: 20px;
+        }
+    }
+    //experience
+
+    .two-pictures{
+        display: flex;
+        justify-content: space-between;
+        //height: 35vh;
+        padding: 20px;
+        z-index: 200;
+    }
+
+    .two-pictures img{
+        min-width:10%;
+        max-width: 20%;
+        padding-top: 1rem;
+    }
+
+    //Know More
+    .go-back img{
+        min-width: 2%;
+        max-width: 2.5%;
+        height: auto;
+        margin: 2rem 50rem 2rem 4rem;
+    }
+
+    .know_more{
+
+        position: absolute;
+        margin: 6rem 50rem 2rem 4rem;
+        text-align: left;
+        
+
+        h2{
+            color: $main-color;
+            font-family: $main-font;
+            font-weight: 200;
+            font-size: 30px;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .knowMoreImg img{
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+  //project page
+
+    //development
+    //design
+    //motion
+
+  //contact page
+
+  .contact{
+    margin-top: 6rem;
+  }
+
+  .contactImg{
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end; /* align children to the end of the container horizontally */
+    align-items: flex-end; /* align children to the end of the container vertically */
+    height: 26vh;
+    padding: 20px;
+    position: fixed;
+
+    img{
+        min-width:10%;
+        max-width: 50%;
+        padding-top: 1rem;
+    }
+  }
+
+}

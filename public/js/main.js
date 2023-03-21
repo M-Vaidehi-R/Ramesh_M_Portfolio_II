@@ -2,20 +2,14 @@ import {SendMail}  from "./modules/mailer.js";
 
 (() => {
 
-let currentPage = document.getElementById("app");
-const { createApp } = Vue;
+    const aboutSubBtn = document.querySelector("#aboutSubNav"),
+          aboutSubcontent = document.querySelector(".aboutSubShow");
 
-function loadPage(page) {
-    console.log('entered function');
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            currentPage.innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", "view/" +page, true);
-    xhttp.send();
-}
+    aboutSubBtn.addEventListener("click", () => {
+        aboutSubcontent.classList.toggle("open");
+    });
+
+const { createApp } = Vue;
 
 
 createApp({

@@ -1,21 +1,24 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About page</title>
+    <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Know More</title>
 </head>
 <body>
-    <h1 hidden>About Page</h1>
+    
+<h1 hidden>Know More</h1>
 
-    <section class="about">
+<a class="go-back" href="./about.php"><img src="../public/images/undo.png" alt="go back"></a>
 
-    <h2>ABOUT ME</h2>
+<section class="know_more">
+    <h2>A little bit about me :)</h2>
+
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a quam ut lacus faucibus ultrices ac vitae eros. Proin et erat 
     vel elit molestie pellentesque quis nec dui. Vestibulum eget pulvinar erat, vitae accumsan ipsum. Quisque eleifend nisi et mi 
@@ -30,15 +33,10 @@
     dui convallis efficitur dapibus, nunc orci fringilla ipsum, id tristique nisi nisi hendrerit metus. Fusce placerat sit amet ante ut 
     hendrerit
     </p>
-    </section>
+</section>
 
-    <div class="about_button">
-    <a class="about_page_button" href="./skills.php">SKILLS</a>
-    <a class="about_page_button" href="./view//knowmore.php">KNOW MORE</a>
-    </div>
-
-    <div class="avatar">
-        <img  src="./public/images/avatar-png.png" alt="my avatar">
-    </div>
+<div class="knowMoreImg">
+<img src="../public/images/universe.svg" alt="my universe :)">
+</div>
 </body>
 </html>

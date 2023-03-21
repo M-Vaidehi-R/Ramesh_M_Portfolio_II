@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh; 
+    display: flex;
+}
+
+
+p{
+  font-family: $main-font;
+}
+
+h2{
+  font-family: $main-font;
+  font-weight: 600;
+}
+
+ul li a{
+  font-family: $main-font;
+  font-weight: 400;
+}
+
+footer {
+  a{
+  font-family: $main-font;
+  font-size: small;
+  text-decoration: none;
+  color: white;
+  padding: .5rem 2rem;
+  background-color: $main-color;
+  border-radius: .4rem;
+}
+p{
+  font-size: 14px;
+  color: $main-color;
+}
+}
+
+.msg-error p{
+  color: rgb(167, 0, 0);
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+.msg-error{
+  opacity: 0;
+}
+.msg-success p{
+  color: rgb(0, 76, 4);
+  font-size: 1.5em;
+  margin-top: -5em;
+}
+.msg-success{
+  opacity: 0;
+}
+
+.display{
+  opacity: 1;
+}
+
+textarea { resize: none; display: block; }
+

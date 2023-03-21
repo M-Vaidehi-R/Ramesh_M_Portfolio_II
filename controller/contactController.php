@@ -16,24 +16,24 @@ if($_POST){  //main if-else
 
    //cleans and stores first name in the $visitor_name variable 
 
-    if(isset($_POST['firstname']) && !empty($_POST['firstname'])) {    //make sure its set and not empty
-        $visitor_name = filter_var($_POST['firstname'],FILTER_SANITIZE_STRING);
+    if(isset($_POST['name']) && !empty($_POST['name'])) {    //make sure its set and not empty
+        $visitor_name = filter_var($_POST['name'],FILTER_SANITIZE_STRING);
 
     }else {
  
-        array_push($fail, "firstname");
+        array_push($fail, "name");
     }
 
 
     
 
-    if(isset($_POST['lastname'])&& !empty($_POST['lastname'])){
+    // if(isset($_POST['lastname'])&& !empty($_POST['lastname'])){
 
-        $visitor_name .= filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);                         //.= append 
-    }
-    else{
-        array_push($fail, "lastname");
-    }
+    //     $visitor_name .= filter_var($_POST['lastname'], FILTER_SANITIZE_STRING);                         //.= append 
+    // }
+    // else{
+    //     array_push($fail, "lastname");
+    // }
 
 
 
@@ -61,10 +61,9 @@ if($_POST){  //main if-else
 
     if(count($fail)==0){
         mail($receipent, $subject, $message, $headers);
-        $results['message'] = sprintf("Thank you for contacting us, %s . We will respond within 24 hours.", $visitor_name);    //%s => tells php thats its refering to a variable at the end
-    }else{
+        $results['message'] = sprintf("Thank you for contacting us, %s . We will respond within 24 hours.", $visitor_name);    
         header("HTTP/1.1 488 You DID NOT fill out the form correctly");
-        die(json_encode(['message'=> $fail]));  //after this dont run anything more in the page => die
+        die(json_encode(['message'=> $fail])); 
     }
 
 
