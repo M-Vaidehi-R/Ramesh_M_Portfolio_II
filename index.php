@@ -17,7 +17,7 @@
     <section class="Nav">
         <nav>
             <div class="logo">
-            <img src="public/images/logo.svg" alt="logo">
+            <a href="index.php"><img src="public/images/logo/MY LOGO-main white.svg" alt="logo"></a>
             </div>
         <ul class="MainNav">
             <li id="aboutSubNav"><a href="#" onclick="loadPage('about.php')">ABOUT</a>
@@ -28,25 +28,48 @@
                     </ul>
             </li>        
             <li><a href="#" onclick="loadPage('projects.php')">PROJECTS</a>
-                    <ul>
+                    <!-- <ul>
                         <li><a href="view/projects.php?category=developing">DEVELOPING</a></li>
                         <li><a href="view/projects.php?category=designing">DESIGNING</a></li>
                         <li><a href="view/projects.php?category=motion">MOTION DESIGNING</a></li>
-                    </ul>
+                    </ul> -->
             </li>        
             <li><a href="#" onclick="loadPage('contact.php')">CONTACT</a></li>
         </ul>
 
     <div class="social-medias">
-        <a href=""><img src="" alt = "L"></a>
-        <a href=""><img src="" alt = "I"></a>
-        <a href=""><img src="" alt = "M"></a>
+        <a href="https://www.linkedin.com/in/mamatha-vaidehi-ramesh-a31a011b5/"><img src="./public/images/socials/linkedin.png" alt = "L"></a>
+        <a href="https://github.com/M-Vaidehi-R"><img src="./public/images/socials/github.png" alt = "I"></a>
+        <a href="https://www.instagram.com/mamatha_vaidehi_ramesh/"><img src="./public/images/socials/instagram.png" alt = "M"></a>
     </div>
     </nav>
     </section>
 
     <main id="app">
-        <!--main Page should be dynamically loaded here -->
+
+    <div class="intro">
+
+        <!-- <h1>Hello World...</h1> -->
+
+    <div class="content">
+    <h2>MAMATHA's</h2>
+    <h2>MAMATHA's</h2>
+  </div>
+<br> <br> <br> <br> <br> <br> <br> <br>
+  <div class="content">
+    <h2>PORTFOLIO</h2>
+    <h2>PORTFOLIO</h2>
+  </div>
+
+  <!-- <h3>Junior Web Developer</h3>
+  <h4>.:building expertize with each project:.</h4> -->
+
+  <div class="main-img">
+        <img src="./public/images/balloon.svg" alt="girl holding balloons">
+  </div>
+
+    <div>    
+        
     </main>
 
     <footer class="footer">

@@ -9,6 +9,10 @@ import {SendMail}  from "./modules/mailer.js";
         aboutSubcontent.classList.toggle("open");
     });
 
+    function goBack() {
+        window.history.back();
+      }
+
 const { createApp } = Vue;
 
 

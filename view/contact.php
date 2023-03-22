@@ -8,19 +8,25 @@
     <section class="contact">
         <h2 hidden>Contact Form</h2>
 
-        <form action="./controller/contactController.php" method="POST" id="mail-form">  <!-- post, variable which is used to collect data, it goes to send.php/action-->    
+        <form action="./controller/contactController.php" method="POST" id="mail-form">  
            
             <label for="firstname">Full Name*</label>
             <input type="text" id="name" name="name" required="required" placeholder="Enter your full name">
 
             <br>
+            <div class="contact-middle">
 
+            <div>
             <label for="email">Email*</label>
             <input type="email" id="email" name="email" required placeholder="Enter your full name">
+            </div>
 
+            <div>
             <label for="phone">Phone #</label>
-            <input  id="phone" type="tel" value="tel" name="phone" placeholder="Enter your full name">
+            <input  id="phone" type="tel" value="tel" name="phone" placeholder="Enter your phone number">
+            </div>
 
+            </div> <!--contact-middle-->
             <br>
 
             <label for="message">Message*</label>
@@ -28,7 +34,7 @@
 
             
             <div class="wrapper">
-                <input @click.prevent="processMail" type="submit" class="submit" value="Submit">
+                <input @click.prevent="processMail" type="submit" class="submit" value="Send">
             </div>    
            
         </form>
