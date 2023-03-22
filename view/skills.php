@@ -1,28 +1,27 @@
-<?php 
 
-//echo "skills";
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <title>Skills</title>
-</head>
-
-<body>
-    <h2>About Me</h2>
+<div class="skills">
+    <div class="page-titles-skills">
+    <h2>About Me </h2>
     <h3>Skills</h3>
+    </div>
+
+    <h3>Developing</h3>
+    <div class="developing four-items">
+    <img src="./public/images/skills/html.png" alt="html logo">
+    <img src="./public/images/skills/js.png" alt="js logo">
+    <img src="./public/images/skills/css-3.png" alt="css logo">
+    <img src="./public/images/skills/php.png" alt="php logo">
+    </div>
+
+    <h3>Designing</h3>
+    <div class="developing four-items">
+    <img src="./public/images/skills/photoshop.png" alt="html logo">
+    <img src="./public/images/skills/illustrator.png" alt="js logo">
+    <img src="./public/images/skills/after-effects.png" alt="css logo">
+    </div>
+
 
     <div class="percentage">
-        <img src="./public/images/percentage.svg" alt ="percentage">
+        <img src="./public/images/percentage.svg" alt ="skill percentage">
     </div>
-</body>
-</html>
+</div>
