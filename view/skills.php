@@ -22,7 +22,7 @@
     <h3>Skills</h3>
 
     <div class="percentage">
-        <img src="../public/images/percentage.svg" alt ="percentage">
+        <img src="./public/images/percentage.svg" alt ="percentage">
     </div>
 </body>
 </html>

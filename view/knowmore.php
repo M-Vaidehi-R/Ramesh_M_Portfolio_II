@@ -8,15 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <title>Know More</title>
+    <title>Skills</title>
 </head>
-<body>
-    
-<h1 hidden>Know More</h1>
 
-<a class="go-back" href="./about.php"><img src="../public/images/undo.png" alt="go back"></a>
+<body>
+    <div class="go-back-knowmore">
+    <img  src="../public/images/undo.png" alt="go back" onclick="goBack()">
+    </div>
 
 <section class="know_more">
+    <div class="text-box-knowmore">
     <h2>A little bit about me :)</h2>
 
     <p>
@@ -33,10 +34,18 @@
     dui convallis efficitur dapibus, nunc orci fringilla ipsum, id tristique nisi nisi hendrerit metus. Fusce placerat sit amet ante ut 
     hendrerit
     </p>
-</section>
+    </div>
 
 <div class="knowMoreImg">
 <img src="../public/images/universe.svg" alt="my universe :)">
 </div>
+
+</section>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 </body>
 </html>

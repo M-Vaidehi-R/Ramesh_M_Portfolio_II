@@ -21,29 +21,33 @@ class portfolio{
 	}
 
     public function loadViews() {
-        if (isset($_GET['category'])) {
-            $ports = $this->PortPiece->getAll($_GET['category']);
-        } else {
-            $ports = $this->PortPiece->getAll();
-        }
+        // if (isset($_GET['category'])) {
+        //     $ports = $this->PortPiece->getAll($_GET['category']);
+        // } else {
+        //     $ports = $this->PortPiece->getAll();
+        // }
     
-        $rows = $this->PortPiece->rows;
+        $ports = $this->PortPiece->getAll();
+         $rows = $this->PortPiece->rows;
     
-        if (isset($_GET['category']) && $_GET['category'] == 'designing') {
-            include('../view/display_designing_projects.php');
-        } else if (isset($_GET['category']) && $_GET['category'] == 'developing') {
-            include('../view/display_developing_projects.php');
-        } else if (isset($_GET['category']) && $_GET['category'] == 'motion') {
-            include('../view/display_motion_projects.php');
-        } 
+        // if (isset($_GET['category']) && $_GET['category'] == 'designing') {
+        //     include('../view/display_designing_projects.php');
+        // } else if (isset($_GET['category']) && $_GET['category'] == 'developing') {
+        //     include('../view/display_developing_projects.php');
+        // } else if (isset($_GET['category']) && $_GET['category'] == 'motion') {
+        //     include('../view/display_motion_projects.php');
+        // } 
         
-        else {
-            include('../view/display_all_ports.php');
-        }
+        // else {
+        //     include('../view/display_all_ports.php');
+        // }
     
         if (isset($_GET['id']) && !isset($_GET['page'])) {
             $ports = $this->PortPiece->getOne($_GET['id']);
             include('../view/single_port_display.php');
+        }
+        else {
+            include('../view/display_all_ports.php');
         }
     }
 
