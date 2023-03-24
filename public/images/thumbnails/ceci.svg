@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="269.35" height="250" viewBox="0 0 269.35 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffc4;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #f18a24;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        font-family: Poppins-Bold, Poppins;
+        font-size: 28px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m79.04,0h170.96v175c0,41.39-33.61,75-75,75H0V79.04C0,35.42,35.42,0,79.04,0Z"/>
+  <text class="cls-3" transform="translate(96.59 131.97)"><tspan x="0" y="0">Ceci</tspan></text>
+  <line class="cls-2" x1="96.33" y1="136.52" x2="163.41" y2="136.52"/>
+</svg>
