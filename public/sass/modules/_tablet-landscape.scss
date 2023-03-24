@@ -1,0 +1,212 @@
+//TABLET
+
+
+//Content:
+
+    //Index Page
+        //animation
+    //About page
+        //skills
+        //education
+        //experience
+    //know More
+  //Project page
+    //development
+    //design
+    //motion
+
+  //Contact page
+
+@media screen and
+(min-width: 1024px) 
+and (max-width: 1199px) {
+
+  .mobile{
+    display: none;
+  }
+    //animation
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+      }
+      
+      body {
+        display: flex;
+        min-height: 80vh;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .content {
+        position: relative;
+      }
+      
+      .content h2 {
+        color: #fff;
+        font-size: 6.5em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+      }
+      
+      .content h2:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 2px $main-color;
+      }
+      
+      .content h2:nth-child(2) {
+        color: $main-color;
+        animation: animate 2s ease-in-out infinite;
+      }
+      
+      @keyframes animate {
+        0%,
+        100% {
+          clip-path: polygon(
+            0% 45%,
+            16% 44%,
+            33% 50%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      
+        50% {
+          clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      }
+    
+      .main-img img
+      {
+      right:3rem;
+      bottom:3rem;
+      min-width: 25%;
+      max-width: 27%;
+      z-index: -1000;
+      position: absolute;
+      }
+
+
+      #app{
+        margin-left: 22em;
+        margin-right: 4rem;
+    }
+
+
+    .logo{
+        width: 100px;
+    }
+    
+    .logo img{
+        min-width: 80%;
+        max-width: 100%;
+    }
+    
+    .logo img:hover{
+    
+      transform: rotate(8deg);
+    
+    }
+
+    .Nav{
+        display: flex;
+        flex-direction:column; 
+        align-items: center;
+        justify-content: center;
+        background-color: $main-color;
+        margin-right: 65rem;
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        height: 100%; 
+        z-index: 200;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    .aboutSubShow {
+        display: none;
+    }
+    
+    .aboutSubShow.open {
+        display: block;
+    }
+    
+    
+    .Nav ul{
+        list-style: none;
+        padding-right: 50px;
+    }
+    
+    
+    
+    .Nav ul li{
+        padding: 2rem;
+        display: block;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .Nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 27px;
+    }
+    
+    .Nav ul li a:hover{
+       font-style: italic;
+    }
+    
+      .Nav li:hover > ul li a:hover {
+        box-shadow: .05rem .0rem 4px white;
+      }
+    
+      .Nav ul li ul li a{
+        font-size: 1rem;
+      }
+    
+    .MainNav{
+        margin: 8rem 0rem 8rem 0rem; 
+        width: 5rem;
+    }
+    
+    .social-medias{
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+    }
+    .social-medias a img{
+        min-width: 20%;
+        max-width: 80%;
+        padding: 0;
+    }
+    
+    .footer{
+        text-align: left;
+        position: absolute;
+        bottom: 1rem;
+        left: 400px;
+      }
+    
+      .footer p{
+        padding-top: 1rem;
+      }
+    
+
+}

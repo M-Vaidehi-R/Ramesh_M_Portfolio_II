@@ -14,6 +14,7 @@
 <body>
     <h1 hidden>Mamatha Portfolio</h1>
 
+
     <section class="Nav">
         <nav>
             <div class="logo">
@@ -27,13 +28,7 @@
                         <li><a href="#" onclick="loadPage('skills.php')">SKILLS</a></li>
                     </ul>
             </li>        
-            <li><a href="#" onclick="loadPage('projects.php')">PROJECTS</a>
-                    <!-- <ul>
-                        <li><a href="view/projects.php?category=developing">DEVELOPING</a></li>
-                        <li><a href="view/projects.php?category=designing">DESIGNING</a></li>
-                        <li><a href="view/projects.php?category=motion">MOTION DESIGNING</a></li>
-                    </ul> -->
-            </li>        
+            <li><a href="#" onclick="loadPage('projects.php')">PROJECTS</a></li>        
             <li><a href="#" onclick="loadPage('contact.php')">CONTACT</a></li>
         </ul>
 
@@ -44,6 +39,37 @@
     </div>
     </nav>
     </section>
+
+        <!--Mobile Nav -->
+        <div>
+
+<div class="mobile tablet">
+    <input type="checkbox" id="overlay-input"/>
+    <label for="overlay-input" id="overlay-button"><span></span></label>
+    <div id="overlay">
+    <ul class="MainNav-phone">
+        <li id="aboutSubNav-phone"><a href="#" onclick="loadPage('about.php')">ABOUT</a>
+                <ul class="aboutSubShow-phone">
+                    <li><a href="#" onclick="loadPage('education.php')">EDUCATION</a></li>
+                    <li><a href="#" onclick="loadPage('experience.php')">WORK EXPERIENCE</a></li>
+                    <li><a href="#" onclick="loadPage('skills.php')">SKILLS</a></li>
+                </ul>
+        </li>        
+        <li><a href="#" onclick="loadPage('projects.php')">PROJECTS</a></li>        
+        <li><a href="#" onclick="loadPage('contact.php')">CONTACT</a></li>
+    </ul>
+
+    <div class="social-medias-phone">
+    <a href="https://www.linkedin.com/in/mamatha-vaidehi-ramesh-a31a011b5/"><img src="./public/images/socials/linkedin.png" alt = "L"></a>
+    <a href="https://github.com/M-Vaidehi-R"><img src="./public/images/socials/github.png" alt = "I"></a>
+    <a href="https://www.instagram.com/mamatha_vaidehi_ramesh/"><img src="./public/images/socials/instagram.png" alt = "M"></a>
+    </div>
+
+    </div>
+    </div>
+</div>        
+
+<!--End Mobile Nav-->
 
     <main id="app">
 
