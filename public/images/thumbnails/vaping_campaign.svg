@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="294.72" height="250" viewBox="0 0 294.72 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffc4;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Bold, Poppins;
+        font-size: 25px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #f18a24;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m79.04,0h170.96v175c0,41.39-33.61,75-75,75H0V79.04C0,35.42,35.42,0,79.04,0Z"/>
+  <line class="cls-3" x1="11.65" y1="137.73" x2="244.57" y2="137.73"/>
+  <text class="cls-2" transform="translate(7.76 132.86)"><tspan x="0" y="0">Vaping Campaign</tspan></text>
+</svg>

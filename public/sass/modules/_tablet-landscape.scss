@@ -207,6 +207,56 @@ and (max-width: 1199px) {
       .footer p{
         padding-top: 1rem;
       }
+
+      .footer a{
+        font-size: medium;
+        
+      }
     
+
+      //skills
+    .skills{
+      margin-top: -10rem;
+    }
+
+    .page-titles-skills{
+
+      margin-left: 1rem;
+
+      h2{
+          color: $main-color;
+          font-family: $main-font;
+          font-weight: 100;
+          font-size: 40px;
+      }
+
+      h3{
+          color: $main-color;
+          font-family: $main-font;
+          font-weight: 100;
+          font-size: 20px;
+      }
+  }
+
+    .percentage img{
+      z-index: -1000;
+      min-width:30%;
+      max-width: 35%;
+
+      position: absolute;
+      right: 0;
+    }
+
+    .developing img{
+      min-width: 20%;
+      max-width: 35%;
+      height: auto;
+    }
+
+    .skills h3{
+      color: $main-color;
+    }
+    //education
+
 
 }
