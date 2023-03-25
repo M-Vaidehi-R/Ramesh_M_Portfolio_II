@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="307.92" height="250" viewBox="0 0 307.92 250">
-  <defs>
-    <style>
-      .cls-1 {
-        font-family: Poppins-Bold, Poppins;
-        font-size: 27px;
-        font-weight: 700;
-      }
-
-      .cls-2 {
-        fill: #ffffc4;
-      }
-
-      .cls-3 {
-        fill: none;
-        stroke: #f18a24;
-        stroke-miterlimit: 10;
-        stroke-width: 3px;
-      }
-    </style>
-  </defs>
-  <path class="cls-2" d="m79.04,0h170.96v175c0,41.39-33.61,75-75,75H0V79.04C0,35.42,35.42,0,79.04,0Z"/>
-  <line class="cls-3" x1="52.02" y1="138.98" x2="205.43" y2="137.11"/>
-  <text class="cls-1" transform="translate(55.38 134.93)"><tspan x="0" y="0">Bootcamp</tspan></text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 251.9 250" style="enable-background:new 0 0 251.9 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFC4;}
+	.st1{fill:none;stroke:#F18A24;stroke-width:3;stroke-miterlimit:10;}
+	.st2{font-family:'Poppins-Bold';}
+	.st3{font-size:27px;}
+</style>
+<path class="st0" d="M79,0h171v175c0,41.4-33.6,75-75,75H0V79C0,35.4,35.4,0,79,0z"/>
+<line class="st1" x1="52" y1="139" x2="205.4" y2="137.1"/>
+<text transform="matrix(1 0 0 1 55.38 134.93)" class="st2 st3">Bootcamp</text>
 </svg>
