@@ -59,19 +59,29 @@ if($_POST){  //main if-else
 
     $headers = 'From: '.$visitor_email."\r\n" .'Reply-to: '.$visitor_email."\r\n" .'X-Mailer: PHP/' .phpversion();
 
-    if(count($fail)==0){
-        mail($receipent, $subject, $message, $headers);
-        $results['message'] = sprintf("Thank you for contacting us, %s . We will respond within 24 hours.", $visitor_name);    
-        header("HTTP/1.1 488 You DID NOT fill out the form correctly");
-        die(json_encode(['message'=> $fail])); 
-    }
+//     if(count($fail)==0){
+//         mail($receipent, $subject, $message, $headers);
+//         $results['message'] = sprintf("Thank you for contacting us, %s . We will respond within 24 hours.", $visitor_name);    
+//         header("HTTP/1.1 488 You DID NOT fill out the form correctly");
+//         die(json_encode(['message'=> $fail])); 
+//     }
 
 
-}else{   // main if else
+// }else{   // main if else
+//     $results['message'] = "There are empty fields in the form";
+// }
+
+// echo json_encode($results);
+
+if(count($fail)==0){
+    mail($receipent, $subject, $message, $headers);
+    $results['message'] = sprintf("Thank you for contacting us, %s. We will respond within 24 hours.", $visitor_name);    
+} else {
     $results['message'] = "There are empty fields in the form";
 }
 
 echo json_encode($results);
+}
 
 
 //super-global only gets inittiated when submit button is clicked

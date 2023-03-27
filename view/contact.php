@@ -1,7 +1,5 @@
 <?php
 
-//echo "contact";
-
 ?>
 
     <!--CONTACT FORM USING VUE-->   
