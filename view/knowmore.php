@@ -21,18 +21,12 @@
     <h2>A little bit about me :)</h2>
 
     <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a quam ut lacus faucibus ultrices ac vitae eros. Proin et erat 
-    vel elit molestie pellentesque quis nec dui. Vestibulum eget pulvinar erat, vitae accumsan ipsum. Quisque eleifend nisi et mi 
-    lobortis semper. Fusce laoreet, enim a lobortis posuere, lorem velit accumsan mauris, a sagittis diam felis at nisi. Pellentesque 
-    neque nisl, ultrices dapibus faucibus id, congue sed justo. Vestibulum a est a felis vestibulum dictum. Suspendisse eget urna 
-    faucibus, consectetur ipsum at, pharetra justo.
+    I'm originally from the beautiful state of Kerala in India, but I've been living in London, Ontario, Canada, for almost two years now. During my time here, I've developed a love for spending time in parks and taking in the beauty of nature. There's nothing quite like watching the sunset or gazing up at the sky to help me feel grounded and at peace.
+    When I'm not out exploring nature, I'm a huge pet lover and enjoy spending time with animals. Music is another one of my passions, and I can listen to it for hours on end. I love discovering new artists and genres and broadening my musical horizons.
+    Another hobby of mine is photography. I enjoy capturing the beauty around me through my camera lens and experimenting with different techniques and styles. There's something incredibly satisfying about capturing a beautiful moment in time and being able to share it with others.
     <br><br><br>
-    Proin eget eleifend felis. Duis molestie erat sed ligula fermentum, et sagittis felis vestibulum. Nullam posuere feugiat neque, vitae 
-    porttitor eros consectetur ac. Sed a metus posuere, pharetra nunc volutpat, dictum eros. Curabitur vulputate fermentum diam 
-    vitae placerat. Sed vel vestibulum sem. Cras eu lectus finibus tellus scelerisque viverra. Donec ex diam, consectetur vitae finibus 
-    nec, posuere ut velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris maximus, 
-    dui convallis efficitur dapibus, nunc orci fringilla ipsum, id tristique nisi nisi hendrerit metus. Fusce placerat sit amet ante ut 
-    hendrerit
+    In my career, I'm passionate about providing innovative and creative solutions to complex web development problems. I have a strong desire to learn and grow in the field, and I'm excited about the opportunities that lie ahead.
+    When I'm not working, I love exploring new places and meeting new people. Whether it's trying out a new restaurant or going on a weekend road trip, I'm always up for an adventure. I believe that life is all about experiencing new things, and I try to embrace that philosophy in both my personal and professional life. If you'd like to connect or collaborate, feel free to reach out!
     </p>
     </div>
 

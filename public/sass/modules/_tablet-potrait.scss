@@ -504,4 +504,76 @@ and (max-width: 1023px) {
    
 
 
+     //knowMore
+     .go-back-knowmore img{
+      width: 50%;
+     }
+
+     .text-box-knowmore{
+      margin-top: 0rem;
+      text-align: center;
+      p{
+        font-size: medium;
+        text-align: center;
+        color: $main-text-color;
+        margin-right: 1rem;
+      }
+      h2{
+        font-size: larger;
+        margin-bottom: 2rem;
+        color: $main-color;
+      }
+     }
+
+     .knowMoreImg img{
+      position: absolute;
+      opacity: 70%;
+        right: 0;
+        bottom: 0;
+        z-index: -100;
+      min-width: 10%;
+      max-width: 70%;
+    }
+
+     .project-thumb{
+      margin-top: 20rem;
+      display: grid;
+      grid-column: 2 / span 2;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-evenly;
+      row-gap: 2em;
+      column-gap: 2em;
+    }
+    
+    .project-thumb img{
+      min-width: 40%;
+      max-width: 70%;
+      filter: drop-shadow(2rem 1rem 1rem #66666630);
+    }
+    
+    .project-thumb-box{
+      position: relative;
+      display: inline-block;
+    }
+    
+    .image-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $main-color;
+      color: white;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s ease-in-out;
+      padding: 5px;
+      min-width: 70px;
+      max-width:120px;
+    }
+    
+    .project-thumb-box:hover .image-text {
+      visibility: visible;
+      opacity: 1;
+    }
+
 }

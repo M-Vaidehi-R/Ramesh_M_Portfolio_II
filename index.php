@@ -49,6 +49,9 @@
     <label for="overlay-input" id="overlay-button"><span></span></label>
     <div id="overlay">
     <ul class="MainNav-phone">
+    <div class="logo">
+    <a href="index.php"><img src="public/images/logo/MY LOGO-main white.svg" alt="logo"></a>
+    </div>
         <li id="aboutSubNav-phone"><a href="#" onclick="loadPage('about.php')">ABOUT</a>
                 <ul class="aboutSubShow-phone">
                     <li><a href="#" onclick="loadPage('education.php')">EDUCATION</a></li>
@@ -100,7 +103,7 @@
     </main>
 
     <footer class="footer">
-    <a href="/public/resume.pdf" download class="button">RESUME</a>
+    <a href="/public/resume/resume.pdf" download class="button">RESUME</a>
 
     <p id="copyright">All rights reserved by Mamatha Ramesh</p>
     </footer>
