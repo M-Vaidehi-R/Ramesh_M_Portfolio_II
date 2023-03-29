@@ -9,19 +9,19 @@
         <form action="./controller/contactController.php" method="POST" id="mail-form">  
            
             <label for="firstname">Full Name*</label>
-            <input type="text" id="name" name="name" required="required" placeholder="Enter your full name">
+            <input ref="name" type="text" id="name" name="name" required="required" placeholder="Enter your full name">
 
             <br>
             <div class="contact-middle">
 
             <div>
             <label for="email">Email*</label>
-            <input type="email" id="email" name="email" required placeholder="Enter your full name">
+            <input ref="email" type="email" id="email" name="email" required placeholder="Enter your full name">
             </div>
 
             <div>
             <label for="phone">Phone #</label>
-            <input  id="phone" type="tel" value="tel" name="phone" placeholder="Enter your phone number">
+            <input ref="phone" id="phone" type="tel" value="tel" name="phone" placeholder="Enter your phone number">
             </div>
 
             </div> <!--contact-middle-->

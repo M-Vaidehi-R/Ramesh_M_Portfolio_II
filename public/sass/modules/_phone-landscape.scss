@@ -66,7 +66,7 @@ and (max-width: 767px) {
   
       #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
         //background: $main-color;
-        background-color: #ffffff;
+        background-color: $main-text-color;
       }
       
       input[type=checkbox] {
@@ -357,6 +357,38 @@ and (max-width: 767px) {
      //end skills
 
 
+     //knowMore
+     .go-back-knowmore img{
+      width: 70%;
+     }
+
+     .text-box-knowmore{
+      margin-top: 2rem;
+      text-align: center;
+      p{
+        font-size: medium;
+        text-align: center;
+        color: $main-text-color;
+        margin-right: 1rem;
+        text-align: left;
+      }
+      h2{
+        font-size: larger;
+        margin-bottom: 2rem;
+        color: $main-color;
+        text-align: left;
+      }
+     }
+
+     .knowMoreImg img{
+      position: absolute;
+      opacity: 70%;
+        right: 0;
+        bottom: 0;
+        z-index: -100;
+      min-width: 50%;
+      max-width: 90%;
+    }
     
 
 }

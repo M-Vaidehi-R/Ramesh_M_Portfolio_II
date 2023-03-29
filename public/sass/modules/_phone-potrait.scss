@@ -60,7 +60,7 @@
         width: 25px;
         border-radius: 2px;
         // background-color: $main-color;
-        background-color: #000000;
+        background-color: $main-text-color;
         // background-color: #ffb5af;
         position: absolute;
         content: "";
@@ -69,7 +69,7 @@
   
       #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
         // background-color: $main-color;
-        background-color: #ffffff;
+        background-color: $main-text-color;
       }
       
       input[type=checkbox] {
@@ -613,11 +613,11 @@
 
      //knowMore
      .go-back-knowmore img{
-      width: 50%;
+      width: 70%;
      }
 
      .text-box-knowmore{
-      margin-top: 5rem;
+      margin-top: 15rem;
       text-align: center;
       p{
         font-size: medium;
@@ -640,8 +640,8 @@
         right: 0;
         bottom: 0;
         z-index: -100;
-      min-width: 10%;
-      max-width: 70%;
+      min-width: 50%;
+      max-width: 90%;
     }
 
 
@@ -697,3 +697,5 @@
     }
 
 
+
+ 
