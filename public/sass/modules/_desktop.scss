@@ -44,7 +44,7 @@
   
   .content h2 {
     color: #fff;
-    font-size: 8em;
+    font-size: 6em;
     position: absolute;
     transform: translate(-50%, -50%);
   }
@@ -124,14 +124,14 @@
     align-items: center;
     justify-content: center;
     background-color: $main-color;
-    margin-right: 75rem;
+    margin-right: 94rem;
     position: fixed; 
     top: 0; 
     left: 0; 
     height: 100%; 
     z-index: 200;
     padding-left: 110px;
-    padding-right: 110px;
+    padding-right: 90px;
 }
 
 .aboutSubShow {
@@ -192,16 +192,7 @@
     padding: 0;
 }
 
-.footer{
-    text-align: left;
-    position: absolute;
-    bottom: 1rem;
-    left: 400px;
-  }
 
-  .footer p{
-    padding-top: 1rem;
-  }
 
 
   //about page

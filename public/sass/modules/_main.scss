@@ -1,7 +1,36 @@
 body{
     background-color: rgb(255, 255, 255);
-    height: 100vh; 
+    //height: 100vh; 
     display: flex;
+}
+
+body {
+  height: 500px;
+  overflow-y: auto; /* or overflow: auto; */
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    height: 800px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    height: 500px;
+  }
 }
 
 
@@ -75,4 +104,9 @@ p{
 }
 
 textarea { resize: none; display: block; }
+
+#copyright{
+  margin-top: 1rem;
+    color: white;
+}
 

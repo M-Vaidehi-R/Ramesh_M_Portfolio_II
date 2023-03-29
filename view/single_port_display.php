@@ -13,7 +13,7 @@
 					<p class="label"><span style="color:orange; font-weight:bold; font-size:1rem" >About Project:</span></p> '.$ports[0]->project_desc.'<br>
 					<p class="label"><span style="color:orange; font-weight:bold; font-size:1rem">Project Description:</span></p> '.$ports[0]->about_desc.'<br>
 					<p class="label"><span style="color:orange; font-weight:bold; font-size:1rem">Role Description:</span></p> '.$ports[0]->role_desc.'<br>	
-
+					<p class="label"><span style="color:orange; font-weight:bold; font-size:1rem">Link to work:</span></p> '.$ports[0]->link_to_work.'<br><br><br>
 					</div>
 				</div>
 			</div>
@@ -21,13 +21,7 @@
 	';
 
 
-	echo '<div class="project-images" style=" margin-top: auto;
-	display: grid;
-	grid-column: 2 / span 2;
-	grid-template-columns: repeat(4, 1fr);
-	justify-content: space-evenly;
-	row-gap: 2em;
-	column-gap: 2em;">';
+	echo '<div class="project-thumb">';
     $image_names = explode(',', $ports[0]->images);
     foreach($image_names as $image_name) {
         echo '<img src="../public/images/project_images/'.$image_name.'" alt="'.$ports[0]->title.'">';
